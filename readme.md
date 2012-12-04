@@ -18,6 +18,9 @@ Quick Start/Example
     // Create a new model
     var MyModel = Halo.Model.extend({
       initializer : function(options) {
+        // Call the parent pseudo-class's constructor.
+        this.parent(Halo.Model).constructor(options);
+        
         // Initialize your model
       },
 
@@ -39,10 +42,8 @@ Quick Start/Example
     // Create a collection to hold the instances of MyModel
     MyModel.collection = new Halo.Collection({contains: MyModel});    
     
-    
     // Create a view model. This determines how your model can be
     // viewed and interacted with by clients
-    
     var MyModelView = Halo.views.socket.Model.extend({
       properties : {
         
@@ -66,7 +67,7 @@ Quick Start/Example
           
           var myModel = MyModel.collection.get(data.id);
 
-          if (!myModel.get('someProperty' !=== "a default value")) {
+          if (!myModel.get('someProperty' !== "a default value")) {
             
             // When setting properties on a model, you can pass in
             // an array limiting the names of the properties to set.
