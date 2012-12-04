@@ -4,7 +4,8 @@
   "author" : "Ian White",
   "dependencies": {
     "socket.io": "*",
-    "underscore": "*"
+    "underscore": "*",
+    "origin": "*"
   },
   "repository" : {
     "type": "git", 
@@ -17,5 +18,5 @@
     } 
   ],
   "main" : "lib/halo.js",
-  "version" : "0.1.1"
+  "version" : "0.1.2"
 }
