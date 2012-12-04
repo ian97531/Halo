@@ -1,0 +1,21 @@
+{
+  "name" : "halo",
+  "description" : "Keeping your Backbone.js straight with Socket.io",
+  "author" : "Ian White",
+  "dependencies": {
+    "socket.io": "*",
+    "underscore": "*"
+  },
+  "repository" : {
+    "type": "git", 
+    "url": "git://github.com/ian97531/halo.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT" 
+    } 
+  ],
+  "main" : "lib/halo.js",
+  "version" : "0.1"
+}
