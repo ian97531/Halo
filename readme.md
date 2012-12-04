@@ -16,7 +16,7 @@ npm install halo
 First, require halo
 
 ```js
-var Halo = require(`halo`);
+var Halo = require("halo");
 ```
 
 Next, create a model by calling the extend method on Halo.model.
@@ -120,7 +120,7 @@ the following URLs:
 <script src="/halo/halo.sync.js"></script>
 ```
 
-Now your Backbone models and collections can interact with any Halo models or collection
+Now your Backbone models and collections can be bound to any Halo models or collection
 that have view objects registered with the Halo router.
 
 ```js
