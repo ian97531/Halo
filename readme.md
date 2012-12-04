@@ -97,8 +97,6 @@ var MyModelView = Halo.views.socket.Model.extend({
     }
   }
 });
-
-var voteView = new VoteView();
 ```
 
 To allow front-end clients to interact with the view, you must create a router
@@ -106,7 +104,7 @@ and register the view with it.
 
 ```js
 var router = new Halo.Router();
-router.addView(voteView);
+router.addView(new MyModelView());
 router.listen(80);
 ```
 
