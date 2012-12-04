@@ -1,12 +1,23 @@
 {
   "name" : "halo",
   "description" : "Keeping your Backbone.js straight with Socket.io",
-  "author" : "Ian White",
+  "contributors" : [ {
+    "name" : "Ian White",
+    "email": "ian.o.white@gmail.com",
+    "web"  : "http://www.ianowhite.info"
+  } ],
   "dependencies": {
     "socket.io": "*",
     "underscore": "*",
     "origin": "*"
   },
+  "keywords" : [
+    "Backbone",
+    "Backbone.js",
+    "Socket",
+    "Socket.io",
+    "binding"
+  ],
   "repository" : {
     "type": "git", 
     "url": "git://github.com/ian97531/halo.git"
@@ -18,5 +29,5 @@
     } 
   ],
   "main" : "lib/halo.js",
-  "version" : "0.1.2"
+  "version" : "0.1.3"
 }

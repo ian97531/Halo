@@ -1,7 +1,6 @@
 Halo
 =============
 
-
 This library makes it quick and easy to build a real-time node backend for Backbone.js clients using Socket.io as the communication protocol.
 
 Installation
