@@ -111,7 +111,8 @@ router.listen(80);
 ### Front-end
 
 In your front-end app, include Socket.io and the Halo.sync.js Backbone extension using
-the following URLs:
+the following URLs. These URLs are automatically made available once router.listen() is
+invoked.
 
 ```html
 <script src="/socket.io/socket.io.js"></script>
